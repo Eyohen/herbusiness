@@ -1,0 +1,318 @@
+.App {
+  text-align: center;
+  display: flex !important;
+  flex-direction: column;
+  /* width: 100vw; */
+  min-height: 100vh;
+ 
+}
+
+
+
+.appheader {
+  background-color: 
+  #F1DFCD;
+  /* min-height: 5vh; */
+  height: 76px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin); */
+  /* color: white; */
+}
+
+@media screen and (max-width: 450px) {
+
+  .appheader {
+    background-color: #F1DFCD;
+    height: fit-content;
+  }
+
+  .appheader h6 {
+    display: none;
+  }
+
+  .products img {
+    display: none;
+  }
+}
+
+.navtitle{
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 70px;
+  font-family: Book Antiqua;
+
+  color:#3C3C3C;
+
+}
+
+
+
+.navletters{
+  font-size: 16px;
+  font-weight: 300;
+  /* margin-left: 10px; */
+  color: #3E3E3E;
+  /* position: absolute; */
+  margin-right: 18px;
+  margin-top: 30px;
+  /* font-family: Book Antiqua; */
+  font-family: 'Goudy Old Style Regular';
+}
+
+.navlogin{
+  border-width: 1px;
+  border-color: black;
+  height: 36px;
+  width: 111px;          
+  border-radius: 40px;         
+  background-color: 
+  #F1DFCD  ;    
+  margin-top: 22px;  
+  margin-left: 10px;            
+}
+
+.navlogintext{
+  font-size: 16px;
+  font-weight: 300;
+  /* margin-left: 10px; */
+  color: #3E3E3E;
+  /* position: absolute; */
+  margin-right: 18px;
+  margin-top: 5px;
+
+}
+
+.navsignuptext{
+  font-size: 16px;
+  font-weight: 300;
+  /* margin-left: 10px; */
+  color: white;
+  /* position: absolute; */
+  margin-right: 18px;
+  margin-top: 5px;
+
+}
+.navsignup{
+  border-width: 1px;
+  border-color: black;
+  height: 36px;
+  width: 111px;          
+  border-radius: 40px;         
+  background-color: black;   
+  margin-top: 22px;  
+  margin-left: 10px;             
+}
+
+/* .products{
+  background-color: white;
+} */
+
+.personal{
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+  margin-top: 300px;
+  margin-left: 150px;
+  position: absolute;
+}
+
+.food{
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+  margin-top: 300px;
+  margin-left: 750px;
+  position: absolute;
+}
+
+.home{
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+  margin-top: 300px;
+  margin-left: 1250px;
+  position: absolute;
+}
+
+.health{
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+  margin-top: 300px;
+  margin-left: 150px;
+  position: absolute;
+}
+
+.clothing{
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+  margin-top: 300px;
+  margin-left: 720px;
+  position: absolute;
+}
+
+.accessories{
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+  margin-top: 300px;
+  margin-left: 1210px;
+  position: absolute;
+}
+
+.kids{
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+  margin-top: 300px;
+  margin-left: 210px;
+  position: absolute;
+}
+
+.cleaning{
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+  margin-top: 300px;
+  margin-left: 720px;
+  position: absolute;
+}
+
+.hair{
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+  margin-top: 300px; 
+  margin-left: 1250px;
+  position: absolute;
+}
+
+
+.smallimage{
+  width: 500px;
+  height: 500px; 
+  margin-top: 56px;
+  margin-left: 24px;
+  font-family: Book Antiqua;
+}
+
+.quicklinks{
+  margin-left: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #3C3C3C;
+  font-family: Book Antiqua;
+  margin-top: 50px;
+}
+
+.smalltext{
+  margin-left: 200px;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: Book Antiqua;
+  color: #3C3C3C;
+}
+
+.podcast{
+  margin-left: 100px;
+  margin-top: 100px;
+  font-size: 13;
+  font-weight: 300;
+  font-family: Book Antiqua;
+  color: #3C3C3C;
+  
+}
+
+.events{
+  margin-left: 100px;
+  margin-top: 0px;
+  font-size: 13;
+  font-weight: 300;
+  font-family: Book Antiqua;
+  color: #3C3C3C;
+  
+}
+
+.location{
+  color: #3C3C3C;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-left: 50px;
+
+
+}
+
+.smalltag{
+  height: 50px;
+  width: 250px;
+  background-color: #FFEBCD;
+  opacity: 0.4;
+  margin-left: 300px;
+  margin-top: 200px;
+  border-radius: 15px;
+  box-shadow: 0px 20px 50px #000000 ;
+  font-family: 'Goudy Old Style Regular';
+}
+
+.zipcode{
+
+    color: #3C3C3C;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: -35px;
+    margin-left: 25px;
+    font-family: 'Goudy Old Style Regular';
+
+}
+
+.email{
+
+  color: #3C3C3C;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: -35px;
+  margin-left: 100px;
+  font-family: 'Goudy Old Style Regular';
+
+}
+
+.website{
+
+  color: #3C3C3C;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: -35px;
+  margin-left: 100px;
+  font-family: 'Goudy Old Style Regular';
+
+}
+
+.description{
+  color: #3C3C3C;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: -35px;
+  margin-left: 305px;
+  font-family: 'Goudy Old Style Regular';
+}
+
+
+.appfooter{
+  height: 270px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* box-shadow:  3px 3px #E8E8E8; */
+  background-color: #E8E1D8;
+  
+  margin-top: auto;
+  
+}
+
+
+
